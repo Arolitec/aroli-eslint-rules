@@ -1,0 +1,16 @@
+{
+  "name": "aroli-eslint-rules",
+  "version": "0.0.1",
+  "description": "AROLI product dev default code rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "author": "AROLI",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-no-comments": "^1.0.5"
+  }
+}
