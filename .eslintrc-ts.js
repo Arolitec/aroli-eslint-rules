@@ -1,5 +1,12 @@
 module.exports = {
-  ignorePatterns: ['*.spec.ts'],
+  overrides: [
+    {
+      files: ['*.spec.ts'],
+      rules: {
+        'max-lines-per-function': 'off',
+      },
+    },
+  ],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
