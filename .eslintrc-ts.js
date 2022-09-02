@@ -1,4 +1,5 @@
 module.exports = {
+  ignorePatterns: ['*.spec.ts'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -10,7 +11,7 @@ module.exports = {
     'max-depth': ['error', { max: 1 }],
     'max-lines-per-function': ['error', 15],
     'max-params': ['error', 3],
-    'eqeqeq' : 'error',
+    eqeqeq: 'error',
     'prefer-const': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
