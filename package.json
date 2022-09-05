@@ -1,6 +1,6 @@
 {
   "name": "aroli-eslint-rules",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "AROLI product dev default code rules",
   "main": "index.js",
   "scripts": {

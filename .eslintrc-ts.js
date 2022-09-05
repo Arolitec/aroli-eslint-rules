@@ -21,7 +21,7 @@ module.exports = {
     eqeqeq: 'error',
     'prefer-const': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    '@typescript-eslint/consistent-type-definitions': ['error'],
   },
   env: {
     browser: true,
