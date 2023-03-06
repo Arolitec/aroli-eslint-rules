@@ -16,7 +16,12 @@ module.exports = {
   rules: {
     'no-console': 'warn',
     'max-depth': ['error', { max: 1 }],
-    'max-lines-per-function': ['error', 17],
+    'max-lines-per-function': ['error', {'max': 17, 'skipBlankLines': true, 'skipComments': true}],
+    'no-var': 'error',
+    'object-shorthand': ['error', 'always', { avoidQuotes: true }],
+    'prefer-template': 'error',
+    'no-return-await': 'error',
+    'require-await': 'error',
     'max-params': ['error', 3],
     eqeqeq: 'error',
     'prefer-const': 'error',
